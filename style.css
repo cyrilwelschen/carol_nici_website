@@ -1,32 +1,18 @@
-ul {
-    text-decoration: none;
-}
-
-li {
-    background: green;
-}
-
-li:nth-child(odd) {
-    background: red;
-}
-
-li {
-    text-align: center;
-    padding: 15px 0px;
-    margin: 10px 0px;
-    background-color: lightblue;
-}
-
 body {
     text-align: center;
 }
 
 .main-btn {
+    color: white;
+    font-weight: 300;
     display: block;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 5px 0px;
     margin-top: 10px;
+    border: #009866 solid 1px;
+    background: #009688;
+    border-radius: 10px;
 }
 
 p {
@@ -37,6 +23,9 @@ p {
 
 .back-btn {
     padding: 10px;
-    margin: 10px;
-    margin-right: 30px;
+    margin-left: 60%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background: none;
+    border: none;
 }
