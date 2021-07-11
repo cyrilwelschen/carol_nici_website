@@ -1,4 +1,4 @@
-const staticCacheName = 'pages-cache-v2';
+const staticCacheName = 'pages-cache-v3';
 
 const filesToCache = [
     '/',
