@@ -29,3 +29,13 @@ p {
     background: none;
     border: none;
 }
+
+ol {
+    text-align: left;
+    width: 70%;
+    margin-left: 30px;
+}
+
+li {
+    margin: 10px 0px;
+}
