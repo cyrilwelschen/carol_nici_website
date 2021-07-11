@@ -2,9 +2,12 @@
 <html>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#009688">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="images/icon.png">
 
 <body style="max-width:600px">
 
@@ -93,4 +96,11 @@
         <br>
     </div>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(registration => console.log("service worker registered"))
+                .catch(err => console.log('service worker not registered', err));
+        };
+    </script>
 </body>
