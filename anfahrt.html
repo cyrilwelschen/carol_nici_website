@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h2>Anfahrt</h2>
+
+    <header class="w3-bar w3-card w3-theme">
+        <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+        <h2 class="w3-bar-item">Anfahrt</h2>
+    </header>
+
+    <p>Google Maps zeigt allenfalls nicht die schönst Route nach Alassio an. Für den richtigen Wow-Effekt sollte die Autobahn in Albenga verlassen werden und Alassio über die Küstenstrasse angefahren werden:
+    </p>
+    <p>
+        Schönster Weg ("Alassio" als Zielort in Google Maps eingegeben):
+    </p>
+
+    <img src="images/anfahrt_ok.jpg" alt="Anfahrt_ok" width="80%">
+
+    <p>Schnellster Weg (Hotel als Zielort in Google Maps eingegeben):</p>
+
+    <img src="images/anfahrt_nok.jpg" alt="Anfahrt_ok" width="80%">
+
+    <br>
+    <form action="main.html">
+        <button class="btn back-btn"><i class="fa fa-home"></i></button>
+    </form>
 </body>
 
 </html>
