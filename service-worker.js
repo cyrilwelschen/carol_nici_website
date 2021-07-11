@@ -1,4 +1,4 @@
-const staticCacheName = 'pages-cache-v1';
+const staticCacheName = 'pages-cache-v2';
 
 const filesToCache = [
     '/',
@@ -12,6 +12,7 @@ const filesToCache = [
     '/main.html',
     '/muretto.html',
     '/pontile.html',
+    '/weiteres.html',
     '/promenade.html',
     '/strand.html',
     '/uebersicht.html',
