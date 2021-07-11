@@ -1,0 +1,26 @@
+ul {
+    text-decoration: none;
+}
+
+li {
+    background: green;
+}
+
+li:nth-child(odd) {
+    background: red;
+}
+
+li {
+    text-align: center;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    background-color: lightblue;
+}
+
+.main-btn {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
